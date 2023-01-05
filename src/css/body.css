@@ -1,0 +1,51 @@
+.body_container {
+  margin: 50px 100px 50px 100px;
+  display: flex;
+  height: 500px;
+  padding: 50px;
+  border-bottom: #f55a5a 1px solid;
+}
+
+.body_img {
+  width: 400px;
+  height: 500px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+.body_info {
+  margin-left: 60px;
+}
+.body_maps {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.icon_location {
+  color: #f55a5a;
+  font-size: 30px;
+  margin-right: 5px;
+}
+.body_location {
+  letter-spacing: 5px;
+  font-size: 30px;
+}
+.googlemap {
+  margin-left: 20px;
+  letter-spacing: 1px;
+  font-size: 20px;
+  color: grey;
+}
+.body_title {
+  letter-spacing: 1px;
+  margin-bottom: 30px;
+}
+.body_date {
+  letter-spacing: 1px;
+  font-weight: 900;
+  margin-bottom: 20px;
+}
+.body_text {
+  width: 80%;
+  font-size: 20px;
+  line-height: 30px;
+}
